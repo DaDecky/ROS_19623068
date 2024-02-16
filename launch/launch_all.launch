@@ -1,0 +1,4 @@
+<launch>
+	<node name="navigator" pkg="tugas_rsc" type="navigator.py"/>
+	<node name="commander" pkg="tugas_rsc" type="commander.py"/>
+</launch>
